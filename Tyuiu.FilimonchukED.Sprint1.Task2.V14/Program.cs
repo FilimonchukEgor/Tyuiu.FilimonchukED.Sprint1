@@ -7,7 +7,7 @@ namespace Tyuiu.FilimonchukED.Sprint1.Task2.V14
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #0 | Выполнил: Филимончук Е. Д. | РППб-24-1";
+            Console.Title = "Спринт #1 | Выполнил: Филимончук Е. Д. | РППб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
