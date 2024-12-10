@@ -5,7 +5,7 @@ namespace Tyuiu.FilimonchukED.Sprint1.Task4.V9.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = Math.Log(x * y) / (x - (Math.Sqrt(1 + Math.Pow(y, 2))));
+            var res = Math.Round(Math.Log(x * y) / (x - (Math.Sqrt(1 + Math.Pow(y, 2)))), 3);
             return res;
         }
     }
