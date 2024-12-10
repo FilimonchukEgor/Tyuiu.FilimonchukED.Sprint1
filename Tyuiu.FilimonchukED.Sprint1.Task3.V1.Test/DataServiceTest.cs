@@ -10,7 +10,7 @@ namespace Tyuiu.FilimonchukED.Sprint1.Task3.V1.Test
             DataService ds = new DataService();
             double r = 2;
             double h = 3;
-            double wait = 37.699111843077518861551720599354;
+            double wait = 37.699;
             var res = ds.CylinderVolume(r, h);
         }
     }
