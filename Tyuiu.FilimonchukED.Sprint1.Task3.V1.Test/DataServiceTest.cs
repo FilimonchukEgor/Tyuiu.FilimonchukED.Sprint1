@@ -11,7 +11,7 @@ namespace Tyuiu.FilimonchukED.Sprint1.Task3.V1.Test
             double r = 2;
             double h = 3;
             double wait = 37.68;
-            var res = ds.Calculate(r, h);
+            var res = ds.CylinderVolume(r, h);
         }
     }
 }
