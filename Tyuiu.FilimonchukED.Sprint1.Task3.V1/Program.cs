@@ -36,9 +36,9 @@ namespace Tyuiu.FilimonchukED.Sprint1.Task3.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.CylinderVolume(x, y);
+            
 
-            Console.WriteLine("Объем цилиндра состовляет "+ Math.Round((result),3) +" сантиметров кубических");
+            Console.WriteLine("Объем цилиндра состовляет "+ ds.CylinderVolume(x,y) +" сантиметров кубических");
 
             Console.ReadKey();
         }
